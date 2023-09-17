@@ -1,0 +1,26 @@
+.Login {
+  background-color: var(--light-grey);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 1vmax;
+}
+
+/* .Login-form-input {
+  margin: 2vh 0;
+  padding: 1rem;
+  font-size: 1.5rem;
+} */
+input[name='session_id'] {
+  font-size: 1.5rem;
+}

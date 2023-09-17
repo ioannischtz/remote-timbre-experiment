@@ -1,0 +1,45 @@
+:root {
+  --color-smoke: #e4e4e4;
+  --purple: #503291;
+  --magenta: #eb3c96;
+  --blue: #0f69af;
+  --cyan: #2dbecd;
+  --green: #a5cd50;
+  --red: #e61e50;
+  --rich-green: #149b5f;
+  --black: #1b1b25;
+  --light-grey: #f8f8fc;
+  --white: #ffffff;
+  --yellow: #ffc832;
+  --txt-white: #ffffff;
+  --txt-gold-on-purple: #ffc832;
+  --txt-cyan-on-purple: #2dbecd;
+  --txt-magenta-on-purple: #eb3c96;
+  --txt-purple-on-magenta: #563291;
+  --txt-black-on-magenta: #1b1b1b;
+  --txt-white-on-blue: #fefefe;
+  --txt-yellow-on-blue: #f6c437;
+  --txt-cyan-on-blue: #2cbdcc;
+  --txt-purple-on-cyan: #503291;
+  --txt-yellow-on-cyan: #fec832;
+  --txt-purple-on-green: #503291;
+  --txt-blue-on-green: #0f69ae;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-content {
+  background-color: var(--light-grey);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

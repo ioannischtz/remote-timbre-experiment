@@ -1,0 +1,25 @@
+.ImagesGrid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.ImagesGrid-img {
+    transition:.05s all; 
+    transition-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+.ImagesGrid-img-Selected {
+    border: solid 0.4rem var(--red);
+}
+.ImagesGrid-img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+
+.ImagesGrid-img-Selected:hover {
+    cursor: pointer;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}

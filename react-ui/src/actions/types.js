@@ -1,0 +1,12 @@
+export const SET_ALERT = 'SET_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+export const SESSION_LOADED = 'SESSION_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGOUT = 'LOGOUT';
+export const GET_AUDIOSTIMULUS = 'GET_AUDIOSTIMULUS';
+export const GET_AUDIOSTIMULI = 'GET_AUDIOSTIMULI';
+export const NO_AUDIOSTIM = 'NO_AUDIOSTIM';
+export const AUDIO_ERROR = 'AUDIO_ERROR';
+export const IMG_ERROR = 'IMG_ERROR';
